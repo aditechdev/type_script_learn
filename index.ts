@@ -4,6 +4,7 @@ import axios from "axios";
 
 const url = "https://jsonplaceholder.typicode.com/todos/1";
 
+// Create Interfase and use it as "as"
 interface Todo {
 	id: number;
 	title: string;

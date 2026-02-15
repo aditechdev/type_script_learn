@@ -17,3 +17,11 @@ What is type
 Easy way to refer to the different properties + fuctions that a value has
 
 
+----
+Type |Vlue that have this type |
+string | "hi there", "", "Today is monday"
+number | .000256, -20, 400000
+boolean | true, false
+Date | new Date()
+Todo | {id: 1, completed: true, title: "Trash"} 
+
