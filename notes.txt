@@ -1,0 +1,19 @@
+ts-node index.ts
+
+Course Goal
+
+Syntax + Features
+- Understand the basic of Typescript
+- Function typing + annotations
+- Type defination files
+- Array in TS
+- Modules Systems
+- Class + Refresher on OOP
+
+Design Paterns
+- Projects
+
+What is type
+Easy way to refer to the different properties + fuctions that a value has
+
+
