@@ -25,3 +25,19 @@ boolean | true, false
 Date | new Date()
 Todo | {id: 1, completed: true, title: "Trash"} 
 
+
+Types:
+- Primitive Types: number, string, boolean, void, undefined, string, symbols, null
+- Object Types: functions, arrays, classes, objects
+
+
+Type annotations + Type interface for 
+Variables
+functions
+objects
+
+Type annotations: To tell type what it is related to (We developer tell Typescript the type)
+Type inferance: Typescript guesses the type
+
+
+
