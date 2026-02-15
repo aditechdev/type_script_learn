@@ -65,3 +65,23 @@ interface Todo {
   title: string;
   completed: boolean;
 }
+```
+
+
+Tool to run TypeScript in the browser:
+```bash
+npx parcel index.html
+```
+Projects
+
+[Minor Project To Generate TypeScript](https://github.com/aditechdev/type_script_random_name_place_generator)
+
+
+cd maps
+
+Other commands
+
+Then, install the dependencies:
+```ts
+npm install
+```
