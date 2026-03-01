@@ -77,6 +77,7 @@ Projects
 [Minor Project To Generate TypeScript](https://github.com/aditechdev/type_script_random_name_place_generator)
 
 [Sort Data minor project TypeScript](https://github.com/aditechdev/type_script_learn)
+[Generate Report Using CSV](https://github.com/aditechdev/type_script_report_generator)
 
 
 cd maps
