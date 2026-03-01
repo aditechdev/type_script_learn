@@ -39,7 +39,6 @@ function printNumber(arr: number[]) {
 	}
 }
 
-
 function printAnything<T>(arr: T[]): void {
 	for (let index = 0; index < arr.length; index++) {
 		const element = arr[index];
@@ -47,4 +46,29 @@ function printAnything<T>(arr: T[]): void {
 	}
 }
 
-printAnything<string>(['a','b','c']);
+printAnything<string>(["a", "b", "c"]);
+
+// Generic Constraints
+class Cars {
+	print() {
+		console.log("I am a car");
+	}
+}
+
+class House {
+	print() {
+		console.log("I am a House");
+	}
+}
+
+interface Printable {
+	print(): void;
+}
+function printHouseOrCars<T extends Printable>(arr: T[]): void {
+	for (let index = 0; index < arr.length; index++) {
+		const element = arr[index];
+		element.print();
+	}
+}
+
+printHouseOrCars([new House(), new Cars()]);
